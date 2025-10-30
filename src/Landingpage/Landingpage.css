@@ -1,0 +1,441 @@
+*{
+    margin:0px;
+     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+main{
+    background: linear-gradient(180deg,#dfd9d6,#e66a2cc8);
+    padding-bottom: 100px;
+}
+.left a{
+    color:black;
+    margin-left: 14px;
+    margin-top: 9px;
+    font-family:cursive;
+    font-size: 20px;
+}
+.spanone{
+        color: rgba(226, 98, 0, 0.884);
+        font-size: 37px;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+     .spantwo{
+        font-size: 20px;
+        color: gray;
+        margin-left: 29px;
+        letter-spacing: 1px;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+.left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.left img{
+    height: 65px;
+    width: 60px;
+    margin-left: 20px;
+}
+.right a{
+    font-size: smaller;
+    color:rgba(255, 255, 255, 0.818);
+    background-color: rgba(0, 128, 0, 0.634);
+    padding:14px;
+    border-radius:12px;
+    margin-right: 33px;
+    font-weight:thin;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+nav{
+    display:flex;
+    margin:0px;
+    justify-content:space-between;
+    padding:20px;
+    align-items: center;
+    
+}
+   header{
+    width: 100%;
+    position: sticky;
+
+    
+    box-shadow: 0 4px 12px rgba(128,128,128,0.35); 
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+.hero-1{
+    justify-content: center;
+    align-items: center;
+    gap: 350px;
+    display:flex;
+}
+.lefthero{
+    display: flex;
+    flex-direction: column;
+    gap:1px;
+    margin-top: 90px;
+    margin-right: 80px;
+
+}
+.righthero img{
+    border-radius: 25px;
+    margin-top: 90px;
+    height: 410px;
+    width: 600px;
+    margin-left: 10px;
+}
+.lefthero a{
+    font-size:10px;
+   border: 1px solid rgba(213, 105, 3, 0.925);
+    color:black;
+    width: 80px;
+    text-align: center;
+    padding: 18px;
+    border-radius: 10px;
+    transition: all 0.2s ease;
+    font-family: sans-serif;
+}
+.lefthero a:hover{
+    transform:rotate(360deg);
+}
+.lefthero button{
+    background:linear-gradient(90deg,#e36702cd,#c25203);
+    width: 190px;
+    border: none;
+    padding: 17px;
+    border-radius: 7px;
+    color: white;
+    font-size:large;
+    margin-top: 10px;
+    cursor: pointer; 
+    transition: all 0.3s ease; 
+}
+.lefthero button:hover{
+    transform: scale(1.1);
+}
+.lefthero span{
+    font-size: 80px;
+}
+.span-three{
+   color: #e84343d1;
+
+}
+.lefthero p{
+    color:rgba(0, 0, 0, 0.584);
+    font-size: 19px;
+}
+.star img{
+    width:20px;
+    height: 20px;
+}
+.star span{
+    font-size: 20px;
+}
+.heroicon{
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+}
+section{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    margin-top: 80px;
+}
+section h1{
+    font-size: 50px;
+}
+section p{
+    font-size: 17px;
+    color: rgba(0, 0, 0, 0.548);
+}
+.pre-menu1{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    margin-top: 35px;
+    padding-bottom: 50px;
+}
+.one1 h2{
+    padding-top:10px;
+    padding-bottom: 10px;
+}
+.one1{
+    height: 140px;
+    width: 310px;
+    border: 1px solid white;
+    border-radius: 13px;
+    padding: 35px;
+    box-shadow: 3px 3px 10px gray;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(180deg,#fff8f5,#ffece7);
+    transition: all 0.3s ease;
+}
+.one1:hover{
+    transform: scale(1.1);
+}
+.pre-menu1 img{
+    height: 50px;
+    width: 50px;
+}
+.one1 img{
+    transition: all 0.3s ease;
+}
+.one1 img:hover{
+    transform: rotate(360deg);
+}
+.burger p{
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+}
+section button{
+    background:linear-gradient(90deg,#ff9a3e,#e84343);
+    width: 150px;
+    border: none;
+    padding: 12px;
+    border-radius: 7px;
+    color: white;
+    font-size:medium;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+section button:hover{
+transform: scale(1.1 );
+    
+}
+.pre-menu{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-top: 35px;
+}
+.firstt{
+    display: flex;
+    gap: 10px;
+}
+.twooo{
+    display: flex;
+    gap: 10px;
+}
+.pre-menu img{
+    height: 50px;
+    width: 50px;
+}
+section button{
+    margin-bottom: 60px;
+    cursor: pointer;
+}
+.burger{
+    height: 90px;
+    width: 290px;
+    border: 1px solid white;
+    border-radius: 13px;
+    padding: 25px;
+    box-shadow: 3px 3px 10px gray;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(180deg,#fff8f5,#ffece7);
+    transition: all 0.5s ease;
+}
+.burger:hover{
+    transform: scale(1.2);
+}
+footer{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+   background:linear-gradient(90deg,#ff9a3e,#e84343);
+    height: 400px;   
+    gap: 30px;
+    color: white;
+    font-size: 20px;
+}
+footer button{
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    color: #e84343;
+    font-size: large;
+    cursor: pointer;
+}
+@media screen and (max-width: 380px){
+    .nav a{
+        font-size: 12px;
+        margin-left: 8px;
+        
+    }
+    .nav img{
+        width: 40px;
+        height: 40px;
+        margin-left: 1px;
+        border: 1px solid grey;
+        padding: 2px;
+        border-radius: 10px;
+       box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    
+    }
+    .right a{
+        padding: 8px;
+        font-size: 11px;
+        border-radius: 6px;
+        letter-spacing: 0.4px;
+        
+      
+    }
+    .right a{
+        margin-right: 12px;
+    }
+    .nav{
+        padding: 10px 10px;
+        
+    }
+    .left a{
+        padding: 1px;
+        margin-top: 2px;
+    }
+    .spanone{
+        color: rgba(226, 98, 0, 0.884);
+        font-size: 17px;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .spantwo{
+        font-size: 10px;
+        color: gray;
+        margin-left: 17px;
+        letter-spacing: 1px;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .heroicon{
+        gap: 36px;
+    }
+    .hero-1{
+        display: flex;
+        flex-direction: column;
+        padding: 2px;
+    }
+    .lefthero{
+        padding-left:10px; 
+        margin-top: 60px;
+    }
+    .left span{
+        font-size: 12px;
+    }
+    .lefthero span{
+        font-size: 40px;
+        margin-bottom: 1px;
+    }
+    
+    .lefthero .span-three{
+        margin-bottom: 17px;
+    }
+    .hero-1{
+    
+        top: 2px;
+    }
+    .lefthero a{
+        margin-bottom: 15px;
+    }
+    .lefthero button{
+        padding-top: 16px;
+        padding-bottom: 16px;
+        margin-top: 30px;
+        width: 66%;
+        border-radius: 14px;
+        margin-bottom: 20px;
+    }
+    .heroicon img{
+        height: 20px;
+        width: 20px;
+    }
+    .heroicon p{
+        font-size: 10px;
+    }
+    .heroicon span{
+        font-size: 22px;
+    }
+    .righthero img{
+        width: 90%;
+        height: auto;
+        margin-top: 0px;
+        padding-left: 8px;
+    }
+    .hero-1{
+        gap: 50px;
+    }
+    section h1{
+        font-size: 30px;
+    }
+    .pre-menu1{
+        flex-direction: column;
+    }
+    .one1{
+        height: auto;
+        width: 200px;
+    }
+    .pre-menu{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .burger{
+        width: 200px;
+        display: flex;
+        gap:50px;
+    }
+    .lefthero .heroicon{
+       align-items: center;
+       justify-content: center;
+    }
+    .firstt{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
+    .twooo{
+        display: flex;
+        gap: 10px;
+    }
+    .lefthero{
+        margin-right:20px;
+    }
+    footer h1{
+        font-size: 30px;
+    }
+    footer p{
+        font-size: 20px;
+        padding-left: 22px;
+        padding-right: 10px;
+        padding-top: 1px;
+    }
+    footer{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+    .burger{
+        width: 100px;
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        gap: 3px;
+    }
+    .burger img{
+        height: 60px;
+        width: 60px;
+    }
+    
+
+    
+}
+
+
