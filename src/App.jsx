@@ -1,7 +1,7 @@
 import React from 'react'
 import Landingpage from './Landingpage/Landingpage.jsx';
 import { BrowserRouter as Router, Routes, Route, BrowserRouter } from "react-router-dom";
-import Mainpage  from './mainpage/mainpage.jsx';
+import Mainpage  from './mainpage/Mainpage.jsx';
 import Cart from './cart/Cart.jsx';
 
 
