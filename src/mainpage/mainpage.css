@@ -86,8 +86,9 @@ nav button{
 
 .itemone span {
   font-weight: 600;
-  color: #2ecc71;
+  color: rgb(0, 0, 0);
   margin-right: 10px;
+  font-weight: 4 00;
 }
 
 .itemone mark {
@@ -110,3 +111,87 @@ nav button{
 .itemone button:hover {
   background: #ff4400;
 }
+.nav-item {
+  text-decoration: none;
+  color: black;
+  margin: 0 10px;
+  font-size: 16px;
+  transition: 0.2s;
+}
+
+.nav-item:hover {
+  color: #f26b38;
+}
+
+.nav-item.active {
+  font-weight: bold;
+  color: #f26b38;
+  border-bottom: 2px solid #f26b38;
+}
+
+
+
+ @media(max-width:380px){
+  nav input{
+    padding: 9px 10px;
+    background-color: wheat;
+  }
+  .anchor{
+    display: none;
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .menucard{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+   
+  }
+  .itemone{
+    width: 300px;
+    height: 320px;
+  }
+  .itemone img{
+    height: 150px;
+    width: 300px;
+  }
+  .itemone p{
+    font-size: 13px;
+    font-weight: 300;
+    padding-bottom: 5px;
+    margin-top: 4px;
+    margin-bottom: 1px;
+    color: gray;
+  }
+
+  .itemone .names{
+    font-size: 22px;
+    font-weight: 500;
+    padding-bottom: 5px;
+    margin-bottom: 0;
+    color: black;
+  }
+  
+  .itemone button{
+    width:100%;
+  }
+
+  .itemone span{
+    font-size: 27px;
+    padding-bottom: 12px;
+  }
+
+  .rowone{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    height: auto;
+  }
+ }
+
+
+
+
+

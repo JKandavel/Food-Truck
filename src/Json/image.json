@@ -1,141 +1,142 @@
 [
-    {
-        "id":1,
-        "name":"Street Tacos",
-        "Price":120,
-        "image":"mexican.jpg"
-    },
-    {
-         "id":2,
-        "name":"kdajfoe",
-        "Price":130,
-        "image":"/mexican.jpg"
-
-    },
-    {
-         "id":3,
-        "name":"dafefe",
-        "Price":180,
-        "image":"/mexican.jpg"
-
-    },
-    {
-         "id":4,
-        "name":"kdae",
-        "Price":190,
-        "image":"/mexican.jpg"
-
-    },
-     {
-         "id":4,
-        "name":"kdae",
-        "Price":190,
-        "image":"/mexican.jpg"
-
-    },
-     {
-         "id":4,
-        "name":"kdae",
-        "Price":190,
-        "image":"/mexican.jpg"
-
-    },
-     {
-         "id":4,
-        "name":"kdae",
-        "Price":190,
-        "image":"/mexican.jpg"
-
-    },
-     {
-         "id":4,
-        "name":"kdae",
-        "Price":190,
-        "image":"/mexican.jpg"
-
-    },
-     {
-         "id":4,
-        "name":"kdae",
-        "Price":190,
-        "image":"/mexican.jpg"
-
-    },
-     {
-         "id":4,
-        "name":"kdae",
-        "Price":190,
-        "image":"/mexican.jpg"
-    },
-     {
-         "id":4,
-        "name":"kdae",
-        "Price":190,
-        "image":"/mexican.jpg"
-
-    },
-     {
-         "id":4,
-        "name":"kdae",
-        "Price":190,
-        "image":"/mexican.jpg"
-
-    },
-     {
-         "id":4,
-        "name":"kdae",
-        "Price":190,
-        "image":"/mexican.jpg"
-
-    },
-     {
-         "id":4,
-        "name":"kdae",
-        "Price":190,
-        "image":"./mexican.jpg"
-
-    },
-     {
-         "id":4,
-        "name":"kdae",
-        "Price":190,
-        "image":"./mexican.jpg"
-
-    },
-     {
-         "id":4,
-        "name":"kdae",
-        "Price":190,
-        "image":"./mexican.jpg"
-
-    },
-     {
-         "id":4,
-        "name":"kdae",
-        "Price":190,
-        "image":"./mexican.jpg"
-
-    },
-     {
-         "id":4,
-        "name":"kdae",
-        "Price":190,
-        "image":"./mexican.jpg"
-
-    },
-     {
-         "id":4,
-        "name":"kdae",
-        "Price":190,
-        "image":"./mexican.jpg"
-
-    },
-     {
-         "id":4,
-        "name":"kdae",
-        "Price":190,
-        "image":"/mexican.jpg"
-
-    }
-
+  {
+    "id": 1,
+    "name": "Street Tacos",
+    "Price": 120,
+    "image": "/images/mexican.jpg",
+    "category": "Mexican"
+  },
+  {
+    "id": 2,
+    "name": "Chicken Biryani",
+    "Price": 150,
+    "image": "/images/mexican.jpg",
+    "category": "Indian"
+  },
+  {
+    "id": 3,
+    "name": "Parotta & Salna",
+    "Price": 100,
+    "image": "/images/mexican.jpg",
+    "category": "Indian"
+  },
+  {
+    "id": 4,
+    "name": "Grilled Chicken Wrap",
+    "Price": 130,
+    "image": "/images/mexican.jpg",
+    "category": "Fast Food"
+  },
+  {
+    "id": 5,
+    "name": "Veg Burger",
+    "Price": 110,
+    "image": "/images/mexican.jpg",
+    "category": "Fast Food"
+  },
+  {
+    "id": 6,
+    "name": "Loaded Fries",
+    "Price": 90,
+    "image": "/images/mexican.jpg",
+    "category": "Snacks"
+  },
+  {
+    "id": 7,
+    "name": "Paneer Tikka Roll",
+    "Price": 120,
+    "image": "/images/mexican.jpg",
+    "category": "Indian"
+  },
+  {
+    "id": 8,
+    "name": "Chicken Shawarma",
+    "Price": 130,
+    "image": "/images/mexican.jpg",
+    "category": "Middle Eastern"
+  },
+  {
+    "id": 9,
+    "name": "Hot Dog",
+    "Price": 100,
+    "image": "/images/mexican.jpg",
+    "category": "American"
+  },
+  {
+    "id": 10,
+    "name": "BBQ Wings",
+    "Price": 140,
+    "image": "/images/mexican.jpg",
+    "category": "American"
+  },
+  {
+    "id": 11,
+    "name": "Grilled Sandwich",
+    "Price": 90,
+    "image": "/images/mexican.jpg",
+    "category": "Snacks"
+  },
+  {
+    "id": 12,
+    "name": "Cheese Pizza Slice",
+    "Price": 80,
+    "image": "/images/mexican.jpg",
+    "category": "Italian"
+  },
+  {
+    "id": 13,
+    "name": "Fried Momos",
+    "Price": 70,
+    "image": "/images/mexican.jpg",
+    "category": "Chinese"
+  },
+  {
+    "id": 14,
+    "name": "Egg Roll",
+    "Price": 90,
+    "image": "/images/mexican.jpg",
+    "category": "Indian"
+  },
+  {
+    "id": 15,
+    "name": "Masala Dosa",
+    "Price": 80,
+    "image": "/images/mexican.jpg",
+    "category": "South Indian"
+  },
+  {
+    "id": 16,
+    "name": "Falafel Wrap",
+    "Price": 110,
+    "image": "/images/mexican.jpg",
+    "category": "Middle Eastern"
+  },
+  {
+    "id": 17,
+    "name": "Chicken Nuggets",
+    "Price": 100,
+    "image": "/images/mexican.jpg",
+    "category": "Snacks"
+  },
+  {
+    "id": 18,
+    "name": "Veg Fried Rice",
+    "Price": 120,
+    "image": "/images/mexican.jpg",
+    "category": "Chinese"
+  },
+  {
+    "id": 19,
+    "name": "Chocolate Waffle",
+    "Price": 130,
+    "image": "/images/mexican.jpg",
+    "category": "Dessert"
+  },
+  {
+    "id": 20,
+    "name": "Fruit Smoothie",
+    "Price": 100,
+    "image": "/images/mexican.jpg",
+    "category": "Drinks"
+  }
 ]
